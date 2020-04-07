@@ -10,8 +10,9 @@
             "args": [
                 "-g",
                 "${fileDirname}/*.cpp",
+                "-I${workspaceFolder}/TheGameOfKoala/include",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/../${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "/usr/bin"
